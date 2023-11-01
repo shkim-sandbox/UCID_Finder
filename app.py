@@ -19,6 +19,6 @@ value = st.text_input(label="URL을 입력하세요")
 if st.button("조회"):
     get_channel_id(value)
     channel_id = get_channel_id(value)
-    st.write(channel_id)
+    st.code(channel_id, language="python")
     # pyperclip.copy(channel_id)
-    # st.success('유튜브 채널 ID가 복사되었습니다!')
+    st.success('조회를 성공하였습니다. 마우스를 오버하여 클립보드에 복사하세요.')
