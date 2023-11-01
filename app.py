@@ -21,4 +21,4 @@ if st.button("조회"):
     channel_id = get_channel_id(value)
     st.write(channel_id)
     # pyperclip.copy(channel_id)
-    st.success('유튜브 채널 ID가 복사되었습니다!')
+    # st.success('유튜브 채널 ID가 복사되었습니다!')
